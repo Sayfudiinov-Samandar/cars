@@ -10,28 +10,34 @@ body{
 }
 .box-all{
   width: 307px;
-  padding-top: 48px;
+  /* padding-top: 48px; */
   padding-right: 48px;
   padding-bottom: 48px;
   padding-left: 47px;
   border-radius: 8px;
+  background-position: left 48px top 48px;
+  background-repeat: no-repeat;
 }
 .orange{
   background-color: #E28625;
+  background-image: url("../img/icon-sedan.svg");
 }
 .green{
   background-color: #006971;
+  background-image: url("../img/icon-suv.svg");
 }
 .dark-green{
   background-color: #004140;
+  background-image: url("../img/icon-luxury.svg");
 }
+
 .title-box-all{
   margin: 0;
   font-size: 40px;
   line-height: 48px;
   text-transform: uppercase;
   color: #F2F2F2;
-  margin-top: 35px;
+  margin-top: 132px;
   font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
 }
